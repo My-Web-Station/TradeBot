@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "es2015.iterable",
+      "es2015.collection",
+      "es2015.promise"
+    ],
+    "suppressImplicitAnyIndexErrors": true,
+    "module": "es6",
+    "target": "es6",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "listFiles" : true,
+    "typeRoots" : ["typings"],
+  },
+  "include": [
+    "indicators/**/*.ts"
+  ],
+  "files" : [
+    "typings/interfaces.d.ts"
+  ]
+}
